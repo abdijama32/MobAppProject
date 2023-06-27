@@ -4,9 +4,9 @@
     <string name="temp">72</string>
     <string name="feels_like">Feels like 76</string>
     <string name="image">image</string>
-    <string name="low_temp"> Low 65</string>
+    <string name="low_temp"> Low 77</string>
     <string name="high_temp">High 80</string>
-    <string name="humidity">Humidity 100%</string>
+    <string name="humidity">Humidity 10%</string>
     <string name="pressure">Pressure 1023 hPa</string>
 
 </resources>

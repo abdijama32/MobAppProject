@@ -55,7 +55,7 @@ fun WeatherAppContent() {
         WeatherAppTitle()
         SecondaryTitle()
         WeatherInfo()
-        WeatherDetails("65","80", "100%", "1023 hPa")
+        WeatherDetails()
     }
 }
 
@@ -85,7 +85,7 @@ fun SecondaryTitle() {
 }
 
 @Composable
-fun WeatherDetails(low_temp: String, high_temp: String, humidity: String, pressure: String){
+fun WeatherDetails(){
     Column(Modifier.fillMaxWidth().padding(start = 16.dp)) {
         Row(Modifier.fillMaxWidth()){
             Text(
